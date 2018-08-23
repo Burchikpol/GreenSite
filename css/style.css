@@ -1,0 +1,433 @@
+body {
+	font-family: roboto;
+}
+
+.top_menu {
+	padding-top: 25px;
+}
+
+.header {
+	background: url(../img/bg.png);
+}
+
+.navbar-nav li {
+	padding-left: 50px;
+}
+
+.navbar-nav a {
+	font-size: 18px;
+	color: white;
+}
+
+.nav-item a:hover {
+	color:  #009933;
+	transition: 0.3s;
+
+}
+
+
+.get_app a {
+	color: #2ecc71;
+	font-weight: 700;
+	padding: 10px 36px !important;
+	background: white;
+	border-radius: 21px;
+}
+
+.get_app a:hover {
+	color: #2ecc71;
+	font-weight: 700;
+	padding: 10px 36px !important;
+	background: #efe377;
+	border-radius: 21px;
+}
+
+.header_content {
+	padding-top: 74px;
+}
+
+
+.text {
+	color: white;
+}
+.bold_text {
+	display: inline-block;
+}
+
+.caption {
+	font-size: 64px;
+	font-family: Roboto;
+	font: roboto light;
+}
+
+.bold_text {
+	font-weight: bold;
+	font: roboto;
+	padding-top: 67px;
+}
+
+.description {
+	font-size: 18px;
+	font-family: Roboto;
+	padding-top: 25px;
+	font-weight: 300;
+
+}
+
+.header_left {
+	padding-top: 120px;
+}
+
+.store {
+	padding-top: 60px;
+}
+
+.store img:first-child {
+	padding-right: 30px;
+}
+
+.apple img:hover, .google img:hover {
+	transition: 0.3s;
+	opacity: 0.6;
+}
+
+.iphone2 {
+	position: absolute;
+    margin-left: -95px;
+}
+#circle_main {
+	position: absolute;
+    border: 1px solid rgba(2, 2, 2, 0.15);
+    width: 467px;
+    height: 467px;
+    background: #ffffff;
+    border-radius: 233px;
+    margin-left: 25px;
+    margin-top: 122px;
+}
+
+#circle1, #circle2, #circle3, #circle4 {
+	width: 60px;
+	height: 60px;
+	background-color: #e7e7e7;
+	border-radius: 30px;
+	border: 2px solid white;
+}
+
+#circle5 {
+	width: 88px;
+	height: 88px;
+	background-color: #2ecc71;
+	border-radius: 44px;
+	border: 5px solid white;
+	margin: 54px 0px;
+}
+
+.calories {
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.info {
+	padding-top: 116px;
+}
+
+.icon_box {
+	display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 337px;
+    margin-top: 121px;
+    width: 209px;
+}
+
+.icon_svg {
+	
+	color: #ffffff;
+}
+
+#circle1, #circle2, #circle3, #circle4, #circle5
+   {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+#circle1:hover img, #circle2:hover img, #circle3:hover img, #circle4:hover img, #circle5:hover img {
+	transform: scale(1.2);
+	transition: 0.2s;
+}
+
+.icon_circle2, .icon_circle3 {
+	padding-left: 86px;
+}
+
+.icon_circle5 {
+	padding-left: 108px;
+}
+
+
+#circle2, #circle4 {
+	margin-top: 17px;
+}
+
+
+
+.calories .info_text {
+	margin-left: 55px;
+	padding-top: 379px;
+}
+
+.info_text h1 {
+	display: inline;
+}
+
+.info_text h1:first-child, .block2 h1 {
+color: #5a5a5a;
+font-size: 47px;
+font-weight: 300;
+
+}
+
+.info_text h1:nth-child(2), .block2 h1:nth-child(2) {
+color: #2ecc71;
+font-size: 47px;
+font-weight: 300;
+}
+
+.info_text h3 {
+color: #5a5a5a;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 300;
+padding-top: 40px;	
+}
+
+.diet_plan {
+	height: 900px;
+	background-color: #f9f9f9;
+	padding-top: 85px;
+    margin-top: 100px;
+}
+
+.diet_plan .info_text {
+	text-align: center;
+}
+
+.diet_plan .info_text h1:first-child {
+	padding-right: 10px;
+}
+
+.iphones1 {
+	padding-top: 110px;
+	
+	
+	display: flex;
+    justify-content: center;
+}
+
+.iphones1 img {
+	max-width: 100%;
+}
+
+.iphones1 img:nth-child(1) {
+	margin-top: 93px;
+	position: absolute;
+    padding-right: 18%;
+}
+
+.iphones img:nth-child(2) {
+    z-index: 3;
+} 
+
+.iphones img:nth-child(3) {
+	margin-top: 93px;
+	position: absolute;
+    padding-left: 18%;
+}
+    
+.meal_time {
+	height: 700px;
+    align-items: center;
+}
+
+.apple1 {
+	margin: 28px 0px;
+	max-width: 421px;
+	border-radius: 8px;
+	background-color: #f9f9f9;
+	box-shadow: 0 0 60px rgba(15, 65, 36, 0.05);
+	border: 1px solid rgba(145, 145, 145, 0.3);
+	display: flex;
+	justify-content: space-between;
+}
+
+#first {
+	color: #2ecc71;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+#second {
+	color: #5a5a5a;
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+#bottom {
+	color: #2ecc71;
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.time p:first-child {
+	color: #b4b4b4;
+	font-family: Roboto;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.time p:last-child {
+	color: #b4b4b4;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.descript p {
+
+}
+.descript div {
+	display: inline-flex;
+}
+
+
+.block {
+    display: flex;
+    align-items: center;
+}
+
+.block2 {
+
+	display: inline-grid;
+    align-content: center;
+}
+
+.block2 h1 {
+	display: inline-block;
+}
+
+.iphone_img img {
+    max-width: 100%;
+}
+
+
+.svg {
+	max-width: 100%;
+	width: 267px;
+}
+
+.calories .info_text {
+
+}
+
+.meal_time .description  {
+	font-size: 18px;
+    font-family: Roboto;
+    padding-top: 25px;
+    font-weight: 300;
+}
+
+.meal_time h1:first-child {
+	display: inline-block;
+	padding-right: 10px;
+	color: #5a5a5a;
+    font-size: 47px;
+    font-weight: 300;
+}
+
+.meal_time h1:nth-child(2) {
+	display: inline-block;
+	color: #2ecc71;
+    font-size: 47px;
+    font-weight: 300;
+}
+
+.apple_img {
+	align-items: center;
+    display: flex;
+    padding-left: 18px;
+}
+
+
+
+.descript {
+	display: block;
+    text-align: start;
+    padding-right: 63px;
+}
+
+#first {
+	margin: 0;
+    margin-top: 20px;
+}
+
+#second, #bottom {
+	margin: 0;
+}
+
+#bottom p:nth-child(2) {
+	margin-left: 30px;
+}
+
+.time {
+	margin-right: 22px;
+    margin-top: 23px;
+    display: block;
+    text-align: end;
+}
+
+.time p {
+	margin: 0px;
+}
+
+#point {
+	width: 4px;
+    height: 4px;
+    background-color: #b4b4b4;
+    margin: 6px 10px;
+}
+
+//*.apple2 {
+	margin: 28px 0px;
+	width: 525px;
+	height: 135px;
+	border-radius: 8px;
+	background-color: #f9f9f9;
+	box-shadow: 0 0 60px rgba(15, 65, 36, 0.05);
+	border: 1px solid rgba(145, 145, 145, 0.3);
+	display: flex;
+	justify-content: space-between;
+}*//
+.apple1 {
+	
+}
+.apple1:hover {
+	transition: .5s;
+	transform: scale(1.2);
+
+}
+
+.apple1:not(:hover) {
+  transition: .3s;
+}
+
+.time p:nth-child(1):hover {
+	color: #2ecc71;
+}
